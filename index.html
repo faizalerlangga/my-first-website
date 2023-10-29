@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/logo3.jpg">
     <title>Home Page</title>
-    <link rel="stylesheet" href="../style/walpaper.css">
+    <link rel="stylesheet" href="./style/walpaper.css">
 </head>
+
 <body>
     <header>
         <img id="bg-video" src="/assets/logo3.jpg">
-    <div class="video-info">
-        <h1>Data Diri</h1> <br>
-        <p>Upload File profile <button>Upload File &#128193;</button> Tidak Ada File Yang Terpilih</p> <br>
-        <input type="Nama" name="Nama " placeholder="Masukkan Nama">&#128587; <br><br>
-        <input type="NPM" name="NPM" placeholder="Masukkan NPM">&#128290; <br><br>
-        <input type="Matkul" name="Matkul" placeholder="Masukkan Matkul">&#128214; <br><br>
-        <p>Pilih Kota Anda
-            <select name="Masukkan Kota">
-                <option value="Jakarta"> Jakarta </option>
-                <option value="Bogor"> Bogor </option>nn
-                <option value="Depok"> Depok </option>
-                <option value="Tangerang"> Tangerang </option>
-            </select> &#127751;
-        </p> <br>
-    
-        <p>Pilih Negara Anda
-            <select name="Negara">
-                <option value="Indonesia"> Indonesia </option>
-                <option value="Thailand"> Thailand </option>
-                <option value="Inggris"> Inggris </option>
-                <option value="Arab Saudi"> Arab Saudi </option>
-            </select> &#127758;
-        </p> <br>
-        <button>Daftar &#128525;</button>
-    </div>
+        <div class="video-info">
+            <h1>Data Diri</h1> <br>
+            <p>Upload File profile <button>Upload File &#128193;</button> Tidak Ada File Yang Terpilih</p> <br>
+            <input type="Nama" name="Nama " placeholder="Masukkan Nama">&#128587; <br><br>
+            <input type="NPM" name="NPM" placeholder="Masukkan NPM">&#128290; <br><br>
+            <input type="Matkul" name="Matkul" placeholder="Masukkan Matkul">&#128214; <br><br>
+            <p>Pilih Kota Anda
+                <select name="Masukkan Kota">
+                    <option value="Jakarta"> Jakarta </option>
+                    <option value="Bogor"> Bogor </option>nn
+                    <option value="Depok"> Depok </option>
+                    <option value="Tangerang"> Tangerang </option>
+                </select> &#127751;
+            </p> <br>
+
+            <p>Pilih Negara Anda
+                <select name="Negara">
+                    <option value="Indonesia"> Indonesia </option>
+                    <option value="Thailand"> Thailand </option>
+                    <option value="Inggris"> Inggris </option>
+                    <option value="Arab Saudi"> Arab Saudi </option>
+                </select> &#127758;
+            </p> <br>
+            <button onclick="keluarAlert()">Daftar &#128525;</button>
+        </div>
     </header>
 </body>
+<script>
+    function keluarAlert() {
+        alert("Welcome To My First Website")
+    }
+</script>
+
 </html>
