@@ -8,35 +8,32 @@
     <link rel="stylesheet" href="/bengong/style/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-        <video id="bg-video" src="/bengong/assets/aquarium scape.mp4" loop autoplay></video>  
-        <div class="container" class="video-info">
-            <div class="row justifi-content-center">
-                <div class="col-6">
-                    <div class="form-login" img id="form-login" src="/bengong/assets/logo3.jpg" class="img-fluid">
-                        <h1 class="text-ks text-center mb-3">Hi, Welcome! &#128587;</h1>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput" class="form-label form-label-cs">Email</label>
-                            <input type="text" class="form-control form-control-cs" id="exampleFormControlInput1" placeholder="Input Email">
-                        </div>
-                        <div class="mb-4">
-                            <label for="exampleFormControlInput" class="form-label form-label-cs">Password</label>
-                            <input type="password" class="form-control form-control-cs2" id="floatingPassword" placeholder="Input Password">
-                        </div>
-                        <div class="button text-center">
-                            <button onclick="keluarAlert()" class="btn btn-cs-form">Login</button>
-                        </div>
+<body>    
+    <div class="container">
+        <div class="row justifi-content-center">
+            <div class="col-6">
+                <div class="form-login" img id="form-login" src="/bengong/assets/logo3.jpg" class="img-fluid">
+                    <h1 class="text-ks text-center mb-3">Hi, Welcome! &#128587;</h1>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput" class="form-label form-label-cs">Email</label>
+                        <input type="text" class="form-control form-control-cs" id="exampleFormControlInput1" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput" class="form-label form-label-cs">Password</label>
+                        <input type="password" class="form-control form-control-cs2" id="floatingPassword" placeholder="Enter your password">
+                    </div>
+                    <div class="button text-center">
+                        <button onclick="keluarAlert()" class="btn btn-cs-form">Login</button>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </header>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 <script>
     function keluarAlert() {
-        alert("Selamat Anda telah Login")
+        alert("Congratulation! You Has Login")
     }
 </script>
 </html>
