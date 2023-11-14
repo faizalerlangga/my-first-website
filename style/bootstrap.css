@@ -1,0 +1,53 @@
+.form-login{
+    background-image: url('/bengong/assets/logo3.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 436px;
+    height: 343px;
+    margin-top: 150px;
+    margin-left: 300px;
+    box-sizing: border-box;
+}
+
+.text-ks{
+    color: aqua;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 40px;
+    text-shadow: 1px 1px rgb(253, 249, 0);
+}
+
+.form-label-cs{
+    color: #020000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    margin-left: 50px;
+    margin-bottom: 1px !important;
+}
+.form-control-cs{
+    width: 80% !important;
+    margin-left: 50px;
+    font-size: 12px !important;
+    background: #9d9d9d;
+    border-radius: 5px;
+}
+
+.form-control-cs2{
+    width: 80% !important;
+    margin-left: 50px;
+    font-size: 12px !important;
+    background: #9d9d9d;
+    border-radius: 5px;
+    margin-bottom: 50px !important;
+}
+
+.button .btn-cs-form{
+    width: 306px;
+    height: 49px;
+    border-radius: 5px;
+    color: black;
+    background: #9d9d9d;
+}
