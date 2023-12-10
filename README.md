@@ -1,1 +1,0 @@
-﻿# first-study-1
